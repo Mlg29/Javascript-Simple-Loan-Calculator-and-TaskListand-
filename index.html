@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>JAVASCRIPT</title>
+    <link rel="stylesheet" href="style.css" >
+    
+</head>
+<body>
+    <div class="container-fluid taskList">
+        <div class="row">
+            <div class="col-6 pt-4">
+                <div class="card-content">
+                    <h5 class="card-title">Task List</h5>
+                    <div class="row">
+                        <form id="task-form">
+                            <div class="input-form">
+                               <input type="text" name="task" id="task" class="form-control" placeholder="Enter Task" >
+                                <br>
+                                <input type="submit" value="Add Task" class="btn btn-primary" >                  
+                            </div>
+                            </form>
+                    </div>
+                 </div>
+
+                 <div class="card-action">
+                     <h5 id="task-title" class="mt-5">Tasks</h5>
+                     <div class="input-form">
+                        <input type="text" name="filter" id="filter" class="form-control" placeholder="Filter Task" >
+                    </div> 
+                    <ul class="collection"></ul>
+                    <a href="#" id="clear-tasks" class="btn btn-danger">Clear Task</a>  
+                 </div>
+            </div>
+        </div>
+
+    </div>
+
+   
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.collection {
+    background: grey;
+    padding: 10px;
+    width: 400px;
+    
+}
+.taskList {
+    background: grey; 
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;  
+    width: 500px;
+    height: 80vh;
+}
+
+#task {
+    width: 400px;
+}
+#filter {
+    width: 400px;
+}

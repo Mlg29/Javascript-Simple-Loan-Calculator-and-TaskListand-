@@ -1,0 +1,29 @@
+/*Loan Calculator*/
+.input-element {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+#result {
+    display: none;
+}
+#btn {
+    background: black;
+    color: grey;
+    margin-top: 4%;
+}
+#loading {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+span {
+    margin-top: 0px;
+    padding: 8px;
+    background-color: lightgray;
+    border-radius: 3px 0px 0px;
+    
+}
+.Calculator {
+    margin-top: 10%;
+}
